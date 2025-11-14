@@ -21,7 +21,7 @@ class RecorderController:
         self.storage = storage_manager
         self.log_dir = Path(log_dir) if log_dir else None
         self.config = {
-            "source": os.environ.get("NVR_SOURCE", "rtsp://localuser-7733:User%211@192.168.1.150:554/stream1"),
+            "source": os.environ.get("NVR_SOURCE", "rtsp://camera-link/stream1"),
             "segment_seconds": int(os.environ.get("NVR_SEGMENT_SEC", "60")),  # default 60s
             "tmp_dir": str(Path("/tmp") / "nvr_segments"),
             "video_codec": "copy",  # or h264_omx / libx264 depending on device

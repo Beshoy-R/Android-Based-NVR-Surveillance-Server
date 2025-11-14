@@ -4,7 +4,7 @@
 
 export NVR_API_PORT=8080
 # set to your actual camera source; can be RTSP or device
-export NVR_SOURCE="${NVR_SOURCE:-rtsp://localuser-7733:User%211@192.168.1.150:554/stream1}"
+export NVR_SOURCE="${NVR_SOURCE:-rtsp://camera-link/stream1}"
 export NVR_SEGMENT_SEC="${NVR_SEGMENT_SEC:-60}"
 
 # ensure virtualenv optionally

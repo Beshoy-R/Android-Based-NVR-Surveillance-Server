@@ -48,6 +48,8 @@ Automatically cleans up old recordings based on retention settings.
 - SQLite for indexing recordings  
 - REST API for recordings, metadata, and timeline data  
 
+![alt text](web/public/screenshot2.png)
+
 ## Installation
 
 ### 1. Install Termux

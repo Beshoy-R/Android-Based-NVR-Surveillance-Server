@@ -1,4 +1,5 @@
 # Android-Based NVR Surveillance Server
+![alt text](web/public/screenshot.png)
 
 A lightweight Network Video Recorder (NVR) system that turns an Android device into a fully functional surveillance server. It uses a custom Ubuntu environment running inside Termux to provide continuous recording, optional motion detection, LAN playback, and a modern web interface.
 
